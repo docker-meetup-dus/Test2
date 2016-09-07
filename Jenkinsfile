@@ -1,7 +1,5 @@
-node {
-  stage 'Checkout'
-  checkout scm
+stage 'Checkout'
+checkout scm
 
-  stage 'Execute command'
-  sh 'echo "hello world"'
-}
+stage 'Execute command'
+sh 'echo "hello world"'
