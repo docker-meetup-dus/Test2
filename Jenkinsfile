@@ -1,5 +1,7 @@
-stage 'Checkout'
-checkout scm
+node {
+  stage 'Checkout'
+  checkout scm
 
-stage 'Execute command'
-sh 'ls'
+  stage 'Execute command'
+  sh 'ls'
+}
