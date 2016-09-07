@@ -3,5 +3,5 @@ node {
   checkout scm
 
   stage 'Execute command'
-  sh 'ls'
+  sh 'echo "hello docker meetup"'
 }
